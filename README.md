@@ -56,10 +56,6 @@ The training process will output the loss values for the discriminator and gener
 - The `save_image` function from `torchvision.utils` is used to save the generated images. These images will be normalized to be in the range [0, 1].
 - The generator and discriminator models are saved using `torch.save`. You can load these models later for inference or further training.
 
-## License
-
-This code is licensed under the MIT License. See the `LICENSE` file for more details.
-
 ## Acknowledgments
 
 This implementation is based on one online tutorial(''https://blog.csdn.net/qq_39547794/article/details/125389000''). 
